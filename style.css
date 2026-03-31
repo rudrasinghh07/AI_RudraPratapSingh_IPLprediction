@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #d2d2d2, #f04b21);
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.input-section select, .input-section button {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#result-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.match-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    min-width: 400px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.match-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.team img {
+    width: 50px;
+    height: 50px;
+}
+
+.vs {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff3300;
+}
+
+.probabilities {
+    font-weight: bold;
+    text-align: right;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
